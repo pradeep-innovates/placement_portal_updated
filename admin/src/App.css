@@ -1,0 +1,261 @@
+/* Home */
+#home{
+    background: rgb(0, 101, 219);
+    background: linear-gradient(90deg, rgb(0,101,219) 50%, rgba(0, 212, 255, 1) 100%);
+    min-height: 500px;
+}
+
+/* Cards */
+.card{
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+.card:hover{
+    cursor: pointer;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+}
+.upccard{
+    color: #0d6efd;
+} 
+.card-text{
+  color: #0d6efd;
+}
+
+
+.supp{
+    color: red;
+}
+/* Form */
+.form{
+    background: rgb(0, 101, 219);
+    background: linear-gradient(90deg, rgb(0,101,219) 30%, rgba(0, 212, 255, 1) 100%);
+}
+
+/* Footer */
+.footer{
+    background: rgb(0, 101, 219);
+    background: linear-gradient(90deg, rgb(0,101,219) 40%, rgba(0, 212, 255, 1) 100%);
+}
+
+.spaced-link {
+    margin-bottom: 10px; /* Adjust as needed */
+  }
+
+  .red-box {
+    border: 2px solid red;
+    padding: 5px;
+    color: red;
+}
+
+.asdf{
+    color: red;
+}
+.img{
+    max-width: 100%;
+    height: auto;
+}
+.card-content {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 150px; /* Adjust size as needed */
+    height: auto; /* Ensures the aspect ratio is maintained */
+    margin-right: 15px; /* Adjust spacing between the logo and other content */
+}
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+    background-color: white;
+    border: #0d6efd;
+    color: #0d6efd;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .collapsible:hover {
+    background-color: white;
+  }
+  
+  /* Style the collapsible content. Note: hidden by default */
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: rgb(217, 255, 255)
+  }
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+
+
+  .btn.no-hover:hover {
+    background-color: inherit !important;
+    border-color: inherit !important;
+  }
+
+  .company-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.company-name {
+    font-weight: bold;
+    margin-right: 20px;
+    flex: 1;
+}
+
+.company-description {
+    flex: 2;
+    margin-right: 20px;
+    color: #555;
+}
+
+.apply-button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.apply-button:hover {
+    background-color: #0056b3;
+}
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup-form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.popup-form h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.form-actions button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-actions button[type="submit"] {
+  background-color: #007bff;
+  color: white;
+}
+
+.form-actions button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.form-actions button[type="button"] {
+  background-color: #ccc;
+  color: black;
+}
+
+.form-actions button[type="button"]:hover {
+  background-color: #999;
+}
+
+.table-container {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.application-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.application-table th, .application-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.application-table th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.application-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.application-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.application-table td {
+  color: #555;
+}
